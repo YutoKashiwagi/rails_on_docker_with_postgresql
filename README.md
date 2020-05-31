@@ -12,7 +12,8 @@ Railsの気になっている機能を色々試すリポジトリ
 
 ### Rails + Docker + PostgreSQLでの環境構築
 DockerではMySQLしか使ったことがなかったため、環境構築の復習も兼ねてpostgresqlで構築
-- psqlのパスワードを`docker-compose.yml`内で指定する必要あり。
+- postgresqlのパスワードを`docker-compose.yml`内で指定する必要あり。
+  - https://github.com/YutoKashiwagi/rails_on_docker_with_postgresql/blob/048bc3f4636878e02b315d1b9f24aa206f56aac2/docker-compose.yml#L8
 - 参考
   - https://qiita.com/daichi41/items/dfea6195cbb7b24f3419
   - https://qiita.com/at-946/items/2fb75cec5355fad4050d
